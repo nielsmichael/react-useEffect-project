@@ -1,8 +1,7 @@
-import React from "react";
-import { useContext } from "react/cjs/react.production.min";
+import React, { useContext } from "react";
+
 import AuthContext from "../../ctx/auth-context";
 import Button from "../UI/Button/Button";
-
 import Card from "../UI/Card/Card";
 import classes from "./Home.module.css";
 
